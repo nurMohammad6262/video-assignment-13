@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+h2::before{
+    content: "Age- ";
+}
+
+h2::after{
+
+    content: "-pore";
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+p::before{
+    content: ' " ';
+}
+p::after{
+    content: ' " ';
+}
+
+
+.butttonDiv {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 101px;
+}
+.cilikMe {
+    font-size: 40px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.cilikMe::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    transition: .5s;
+}
+.cilikMe:hover::before{
+    width: 100%;
+} 
+.butttonDiv2 {
+    text-align: center;
+    margin-top: -66px;
+    margin-right: 217px;
+}
+.cilikMe2 {
+    font-size: 40px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+.cilikMe2::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    transition: .4s;
+}
+.cilikMe2:hover::before{
+   height: 100%;
+} 
+
+.butttonDiv3 {
+    text-align: right;
+    margin-top: -70px;
+    margin-right: 340px;
+}
+.cilikMe3 {
+    font-size: 40px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+.cilikMe3::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    transition: .4s;
+}
+.cilikMe3:hover::before{
+    height:100%;
+ } 
+ .butttonDiv4 {
+    text-align: right;
+    margin-top: -66px;
+    margin-right: 48px;
+}
+.cilikMe4 {
+    font-size: 40px;
+    background: #6c5ce7;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+.cilikMe4::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+    transition: .4s;
+}
+.cilikMe4:hover::before{
+    width:100%;
+ } 
+
+ ul {
+    margin-left: 52px;
+    padding-top: 60px;
+    list-style: none;
+}
+li {
+    font-size: 25px;
+}
+li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+    
+   
+}
